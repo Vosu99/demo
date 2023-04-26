@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper-register {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/35/15/x9hY0s.jpg);
+   
+}
+
+.auth-form-container {
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgba(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/71/92/huaO3V.jpg);
+}
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 1em;
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    outline-color: black;
+}
+
+.btn-register {
+    width: 50%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0, 5s;
+    border-radius: 0.5em;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+
+.btn-register:hover {
+    transform: scale(1.25);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
